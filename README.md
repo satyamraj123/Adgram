@@ -4,13 +4,20 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is Highly concentrated on APIs
+It uses Instagram api
+It uses firebase Auth api
+It uses firebase cloud database api
 
-A few resources to get you started if this is your first Flutter project:
+Note- It doesnt use advanceed state management like provider or bloc.
+It fetches data on the go.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Instagram Login is safe,
+so dont worry.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Also Note-
+Influencers can only signup through Instagram.
+And advertisers can only login or signUp through email.
+It doesnt store data for specific users.
+Once app deleted, data like your advertisments would be lost. But it will be stored in firebase for inflencers.
+Similarly, for influencers your profile data would be deleted, but it will be stored in firebase for advertisers.
