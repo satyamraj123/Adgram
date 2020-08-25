@@ -52,7 +52,7 @@ class _AdvertiserPageState extends State<AdvertiserPage> {
                   icon: Icon(Icons.person), title: Text('Profile')),
             ]),
         body: pages[_currentindex]);
-    ;
+    
   }
 }
 
